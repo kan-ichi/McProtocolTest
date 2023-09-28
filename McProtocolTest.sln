@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.2017
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McProtocolTest.Base", "McProtocolTest.Base\McProtocolTest.Base.csproj", "{43F1DC1C-8DCF-4185-BF62-C941B7C31B71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Device_D_Reader", "Device_D_Reader\Device_D_Reader.csproj", "{05F9C145-F1CD-44EB-84DD-608B6DFBABAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Device_B_Reader", "Device_B_Reader\Device_B_Reader.csproj", "{F3BF0E16-DC4C-48A7-9CD0-07634DCBF4B6}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43F1DC1C-8DCF-4185-BF62-C941B7C31B71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F1DC1C-8DCF-4185-BF62-C941B7C31B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F1DC1C-8DCF-4185-BF62-C941B7C31B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F1DC1C-8DCF-4185-BF62-C941B7C31B71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05F9C145-F1CD-44EB-84DD-608B6DFBABAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05F9C145-F1CD-44EB-84DD-608B6DFBABAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05F9C145-F1CD-44EB-84DD-608B6DFBABAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05F9C145-F1CD-44EB-84DD-608B6DFBABAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3BF0E16-DC4C-48A7-9CD0-07634DCBF4B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3BF0E16-DC4C-48A7-9CD0-07634DCBF4B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3BF0E16-DC4C-48A7-9CD0-07634DCBF4B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3BF0E16-DC4C-48A7-9CD0-07634DCBF4B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

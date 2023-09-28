@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F3BF0E16-DC4C-48A7-9CD0-07634DCBF4B6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>McProtocolTest</RootNamespace>
+    <AssemblyName>McProtocolTest</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="..\McProtocolTest.Base\Models\Interface\IRequest.cs">
+      <Link>Models\Interface\IRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\McProtocolTest.Base\Models\Interface\IResponse.cs">
+      <Link>Models\Interface\IResponse.cs</Link>
+    </Compile>
+    <Compile Include="..\McProtocolTest.Base\Models\Logics\Error.cs">
+      <Link>Models\Logics\Error.cs</Link>
+    </Compile>
+    <Compile Include="..\McProtocolTest.Base\Models\Logics\ReadWritePlcDevice.cs">
+      <Link>Models\Logics\ReadWritePlcDevice.cs</Link>
+    </Compile>
+    <Compile Include="..\McProtocolTest.Base\Models\Logics\Request.cs">
+      <Link>Models\Logics\Request.cs</Link>
+    </Compile>
+    <Compile Include="..\McProtocolTest.Base\Models\Logics\Response.cs">
+      <Link>Models\Logics\Response.cs</Link>
+    </Compile>
+    <Compile Include="..\McProtocolTest.Base\Models\Logics\Warning.cs">
+      <Link>Models\Logics\Warning.cs</Link>
+    </Compile>
+    <Compile Include="..\McProtocolTest.Base\Utils\McProtocolUtil.cs">
+      <Link>Utils\McProtocolUtil.cs</Link>
+    </Compile>
+    <Compile Include="..\McProtocolTest.Base\ViewModels\ReaderWindowViewModelBase.cs">
+      <Link>ViewModels\ReaderWindowViewModelBase.cs</Link>
+    </Compile>
+    <Compile Include="..\McProtocolTest.Base\Views\ReaderWindow.xaml.cs">
+      <Link>Views\ReaderWindow.xaml.cs</Link>
+      <DependentUpon>ReaderWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\McProtocolTest.Base\Views\ReceivedWords000To199View.xaml.cs">
+      <Link>Views\ReceivedWords000To199View.xaml.cs</Link>
+      <DependentUpon>ReceivedWords000To199View.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\McProtocolTest.Base\Views\ReceivedWords200To399View.xaml.cs">
+      <Link>Views\ReceivedWords200To399View.xaml.cs</Link>
+      <DependentUpon>ReceivedWords200To399View.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\McProtocolTest.Base\Views\ReceivedWords400To599View.xaml.cs">
+      <Link>Views\ReceivedWords400To599View.xaml.cs</Link>
+      <DependentUpon>ReceivedWords400To599View.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\McProtocolTest.Base\Views\ReceivedWords600To799View.xaml.cs">
+      <Link>Views\ReceivedWords600To799View.xaml.cs</Link>
+      <DependentUpon>ReceivedWords600To799View.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\McProtocolTest.Base\Views\ReceivedWords800To999View.xaml.cs">
+      <Link>Views\ReceivedWords800To999View.xaml.cs</Link>
+      <DependentUpon>ReceivedWords800To999View.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ViewModels\ReaderWindowViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Page Include="..\McProtocolTest.Base\Views\ReaderWindow.xaml">
+      <Link>Views\ReaderWindow.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\McProtocolTest.Base\Views\ReceivedWords000To199View.xaml">
+      <Link>Views\ReceivedWords000To199View.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\McProtocolTest.Base\Views\ReceivedWords200To399View.xaml">
+      <Link>Views\ReceivedWords200To399View.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\McProtocolTest.Base\Views\ReceivedWords400To599View.xaml">
+      <Link>Views\ReceivedWords400To599View.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\McProtocolTest.Base\Views\ReceivedWords600To799View.xaml">
+      <Link>Views\ReceivedWords600To799View.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\McProtocolTest.Base\Views\ReceivedWords800To999View.xaml">
+      <Link>Views\ReceivedWords800To999View.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="ReactiveProperty">
+      <Version>6.2.0</Version>
+    </PackageReference>
+    <PackageReference Include="System.Memory">
+      <Version>4.5.1</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

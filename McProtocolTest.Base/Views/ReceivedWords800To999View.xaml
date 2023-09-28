@@ -1,0 +1,335 @@
+﻿<UserControl x:Class="McProtocolTest.Views.ReceivedWords800To999View"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="SaddleBrown">
+        <Grid.Resources>
+            <Style TargetType="{x:Type TextBlock}" BasedOn="{StaticResource {x:Type TextBlock}}">
+                <Setter Property="Foreground" Value="White"/>
+            </Style>
+            <Style TargetType="{x:Type Border}">
+                <Setter Property="BorderBrush" Value="White"/>
+                <Setter Property="BorderThickness" Value="1"/>
+            </Style>
+        </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="60"/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        
+        <TextBlock Grid.Row="00" Grid.Column="01" HorizontalAlignment="Center" Text="+ 0"/>
+        <TextBlock Grid.Row="00" Grid.Column="02" HorizontalAlignment="Center" Text="+ 1"/>
+        <TextBlock Grid.Row="00" Grid.Column="03" HorizontalAlignment="Center" Text="+ 2"/>
+        <TextBlock Grid.Row="00" Grid.Column="04" HorizontalAlignment="Center" Text="+ 3"/>
+        <TextBlock Grid.Row="00" Grid.Column="05" HorizontalAlignment="Center" Text="+ 4"/>
+        <TextBlock Grid.Row="00" Grid.Column="06" HorizontalAlignment="Center" Text="+ 5"/>
+        <TextBlock Grid.Row="00" Grid.Column="07" HorizontalAlignment="Center" Text="+ 6"/>
+        <TextBlock Grid.Row="00" Grid.Column="08" HorizontalAlignment="Center" Text="+ 7"/>
+        <TextBlock Grid.Row="00" Grid.Column="09" HorizontalAlignment="Center" Text="+ 8"/>
+        <TextBlock Grid.Row="00" Grid.Column="10" HorizontalAlignment="Center" Text="+ 9"/>
+        
+        <TextBlock Grid.Row="01" Grid.Column="00" HorizontalAlignment="Right" Margin="5, 0" Text="800"/>
+        <TextBlock Grid.Row="02" Grid.Column="00" HorizontalAlignment="Right" Margin="5, 0" Text="810"/>
+        <TextBlock Grid.Row="03" Grid.Column="00" HorizontalAlignment="Right" Margin="5, 0" Text="820"/>
+        <TextBlock Grid.Row="04" Grid.Column="00" HorizontalAlignment="Right" Margin="5, 0" Text="830"/>
+        <TextBlock Grid.Row="05" Grid.Column="00" HorizontalAlignment="Right" Margin="5, 0" Text="840"/>
+        <TextBlock Grid.Row="06" Grid.Column="00" HorizontalAlignment="Right" Margin="5, 0" Text="850"/>
+        <TextBlock Grid.Row="07" Grid.Column="00" HorizontalAlignment="Right" Margin="5, 0" Text="860"/>
+        <TextBlock Grid.Row="08" Grid.Column="00" HorizontalAlignment="Right" Margin="5, 0" Text="870"/>
+        <TextBlock Grid.Row="09" Grid.Column="00" HorizontalAlignment="Right" Margin="5, 0" Text="880"/>
+        <TextBlock Grid.Row="10" Grid.Column="00" HorizontalAlignment="Right" Margin="5, 0" Text="890"/>
+        <TextBlock Grid.Row="11" Grid.Column="00" HorizontalAlignment="Right" Margin="5, 0" Text="900"/>
+        <TextBlock Grid.Row="12" Grid.Column="00" HorizontalAlignment="Right" Margin="5, 0" Text="910"/>
+        <TextBlock Grid.Row="13" Grid.Column="00" HorizontalAlignment="Right" Margin="5, 0" Text="920"/>
+        <TextBlock Grid.Row="14" Grid.Column="00" HorizontalAlignment="Right" Margin="5, 0" Text="930"/>
+        <TextBlock Grid.Row="15" Grid.Column="00" HorizontalAlignment="Right" Margin="5, 0" Text="940"/>
+        <TextBlock Grid.Row="16" Grid.Column="00" HorizontalAlignment="Right" Margin="5, 0" Text="950"/>
+        <TextBlock Grid.Row="17" Grid.Column="00" HorizontalAlignment="Right" Margin="5, 0" Text="960"/>
+        <TextBlock Grid.Row="18" Grid.Column="00" HorizontalAlignment="Right" Margin="5, 0" Text="970"/>
+        <TextBlock Grid.Row="19" Grid.Column="00" HorizontalAlignment="Right" Margin="5, 0" Text="980"/>
+        <TextBlock Grid.Row="20" Grid.Column="00" HorizontalAlignment="Right" Margin="5, 0" Text="990"/>
+        
+        <Grid Grid.Row="01" Grid.Column="01" Grid.RowSpan="20" Grid.ColumnSpan="10">
+            <Grid.Resources>
+                <Style TargetType="{x:Type TextBlock}" BasedOn="{StaticResource {x:Type TextBlock}}">
+                    <Setter Property="VerticalAlignment" Value="Center"/>
+                    <Setter Property="HorizontalAlignment" Value="Center"/>
+                    <Setter Property="Foreground" Value="White"/>
+                    <Setter Property="FontFamily" Value="MS Gothic"/>
+                </Style>
+            </Grid.Resources>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Row="00" Grid.Column="00"><TextBlock Text="{Binding ReceivedWords.Value[800]}"/></Border>
+            <Border Grid.Row="00" Grid.Column="01"><TextBlock Text="{Binding ReceivedWords.Value[801]}"/></Border>
+            <Border Grid.Row="00" Grid.Column="02"><TextBlock Text="{Binding ReceivedWords.Value[802]}"/></Border>
+            <Border Grid.Row="00" Grid.Column="03"><TextBlock Text="{Binding ReceivedWords.Value[803]}"/></Border>
+            <Border Grid.Row="00" Grid.Column="04"><TextBlock Text="{Binding ReceivedWords.Value[804]}"/></Border>
+            <Border Grid.Row="00" Grid.Column="05"><TextBlock Text="{Binding ReceivedWords.Value[805]}"/></Border>
+            <Border Grid.Row="00" Grid.Column="06"><TextBlock Text="{Binding ReceivedWords.Value[806]}"/></Border>
+            <Border Grid.Row="00" Grid.Column="07"><TextBlock Text="{Binding ReceivedWords.Value[807]}"/></Border>
+            <Border Grid.Row="00" Grid.Column="08"><TextBlock Text="{Binding ReceivedWords.Value[808]}"/></Border>
+            <Border Grid.Row="00" Grid.Column="09"><TextBlock Text="{Binding ReceivedWords.Value[809]}"/></Border>
+            <Border Grid.Row="01" Grid.Column="00"><TextBlock Text="{Binding ReceivedWords.Value[810]}"/></Border>
+            <Border Grid.Row="01" Grid.Column="01"><TextBlock Text="{Binding ReceivedWords.Value[811]}"/></Border>
+            <Border Grid.Row="01" Grid.Column="02"><TextBlock Text="{Binding ReceivedWords.Value[812]}"/></Border>
+            <Border Grid.Row="01" Grid.Column="03"><TextBlock Text="{Binding ReceivedWords.Value[813]}"/></Border>
+            <Border Grid.Row="01" Grid.Column="04"><TextBlock Text="{Binding ReceivedWords.Value[814]}"/></Border>
+            <Border Grid.Row="01" Grid.Column="05"><TextBlock Text="{Binding ReceivedWords.Value[815]}"/></Border>
+            <Border Grid.Row="01" Grid.Column="06"><TextBlock Text="{Binding ReceivedWords.Value[816]}"/></Border>
+            <Border Grid.Row="01" Grid.Column="07"><TextBlock Text="{Binding ReceivedWords.Value[817]}"/></Border>
+            <Border Grid.Row="01" Grid.Column="08"><TextBlock Text="{Binding ReceivedWords.Value[818]}"/></Border>
+            <Border Grid.Row="01" Grid.Column="09"><TextBlock Text="{Binding ReceivedWords.Value[819]}"/></Border>
+            <Border Grid.Row="02" Grid.Column="00"><TextBlock Text="{Binding ReceivedWords.Value[820]}"/></Border>
+            <Border Grid.Row="02" Grid.Column="01"><TextBlock Text="{Binding ReceivedWords.Value[821]}"/></Border>
+            <Border Grid.Row="02" Grid.Column="02"><TextBlock Text="{Binding ReceivedWords.Value[822]}"/></Border>
+            <Border Grid.Row="02" Grid.Column="03"><TextBlock Text="{Binding ReceivedWords.Value[823]}"/></Border>
+            <Border Grid.Row="02" Grid.Column="04"><TextBlock Text="{Binding ReceivedWords.Value[824]}"/></Border>
+            <Border Grid.Row="02" Grid.Column="05"><TextBlock Text="{Binding ReceivedWords.Value[825]}"/></Border>
+            <Border Grid.Row="02" Grid.Column="06"><TextBlock Text="{Binding ReceivedWords.Value[826]}"/></Border>
+            <Border Grid.Row="02" Grid.Column="07"><TextBlock Text="{Binding ReceivedWords.Value[827]}"/></Border>
+            <Border Grid.Row="02" Grid.Column="08"><TextBlock Text="{Binding ReceivedWords.Value[828]}"/></Border>
+            <Border Grid.Row="02" Grid.Column="09"><TextBlock Text="{Binding ReceivedWords.Value[829]}"/></Border>
+            <Border Grid.Row="03" Grid.Column="00"><TextBlock Text="{Binding ReceivedWords.Value[830]}"/></Border>
+            <Border Grid.Row="03" Grid.Column="01"><TextBlock Text="{Binding ReceivedWords.Value[831]}"/></Border>
+            <Border Grid.Row="03" Grid.Column="02"><TextBlock Text="{Binding ReceivedWords.Value[832]}"/></Border>
+            <Border Grid.Row="03" Grid.Column="03"><TextBlock Text="{Binding ReceivedWords.Value[833]}"/></Border>
+            <Border Grid.Row="03" Grid.Column="04"><TextBlock Text="{Binding ReceivedWords.Value[834]}"/></Border>
+            <Border Grid.Row="03" Grid.Column="05"><TextBlock Text="{Binding ReceivedWords.Value[835]}"/></Border>
+            <Border Grid.Row="03" Grid.Column="06"><TextBlock Text="{Binding ReceivedWords.Value[836]}"/></Border>
+            <Border Grid.Row="03" Grid.Column="07"><TextBlock Text="{Binding ReceivedWords.Value[837]}"/></Border>
+            <Border Grid.Row="03" Grid.Column="08"><TextBlock Text="{Binding ReceivedWords.Value[838]}"/></Border>
+            <Border Grid.Row="03" Grid.Column="09"><TextBlock Text="{Binding ReceivedWords.Value[839]}"/></Border>
+            <Border Grid.Row="04" Grid.Column="00"><TextBlock Text="{Binding ReceivedWords.Value[840]}"/></Border>
+            <Border Grid.Row="04" Grid.Column="01"><TextBlock Text="{Binding ReceivedWords.Value[841]}"/></Border>
+            <Border Grid.Row="04" Grid.Column="02"><TextBlock Text="{Binding ReceivedWords.Value[842]}"/></Border>
+            <Border Grid.Row="04" Grid.Column="03"><TextBlock Text="{Binding ReceivedWords.Value[843]}"/></Border>
+            <Border Grid.Row="04" Grid.Column="04"><TextBlock Text="{Binding ReceivedWords.Value[844]}"/></Border>
+            <Border Grid.Row="04" Grid.Column="05"><TextBlock Text="{Binding ReceivedWords.Value[845]}"/></Border>
+            <Border Grid.Row="04" Grid.Column="06"><TextBlock Text="{Binding ReceivedWords.Value[846]}"/></Border>
+            <Border Grid.Row="04" Grid.Column="07"><TextBlock Text="{Binding ReceivedWords.Value[847]}"/></Border>
+            <Border Grid.Row="04" Grid.Column="08"><TextBlock Text="{Binding ReceivedWords.Value[848]}"/></Border>
+            <Border Grid.Row="04" Grid.Column="09"><TextBlock Text="{Binding ReceivedWords.Value[849]}"/></Border>
+            <Border Grid.Row="05" Grid.Column="00"><TextBlock Text="{Binding ReceivedWords.Value[850]}"/></Border>
+            <Border Grid.Row="05" Grid.Column="01"><TextBlock Text="{Binding ReceivedWords.Value[851]}"/></Border>
+            <Border Grid.Row="05" Grid.Column="02"><TextBlock Text="{Binding ReceivedWords.Value[852]}"/></Border>
+            <Border Grid.Row="05" Grid.Column="03"><TextBlock Text="{Binding ReceivedWords.Value[853]}"/></Border>
+            <Border Grid.Row="05" Grid.Column="04"><TextBlock Text="{Binding ReceivedWords.Value[854]}"/></Border>
+            <Border Grid.Row="05" Grid.Column="05"><TextBlock Text="{Binding ReceivedWords.Value[855]}"/></Border>
+            <Border Grid.Row="05" Grid.Column="06"><TextBlock Text="{Binding ReceivedWords.Value[856]}"/></Border>
+            <Border Grid.Row="05" Grid.Column="07"><TextBlock Text="{Binding ReceivedWords.Value[857]}"/></Border>
+            <Border Grid.Row="05" Grid.Column="08"><TextBlock Text="{Binding ReceivedWords.Value[858]}"/></Border>
+            <Border Grid.Row="05" Grid.Column="09"><TextBlock Text="{Binding ReceivedWords.Value[859]}"/></Border>
+            <Border Grid.Row="06" Grid.Column="00"><TextBlock Text="{Binding ReceivedWords.Value[860]}"/></Border>
+            <Border Grid.Row="06" Grid.Column="01"><TextBlock Text="{Binding ReceivedWords.Value[861]}"/></Border>
+            <Border Grid.Row="06" Grid.Column="02"><TextBlock Text="{Binding ReceivedWords.Value[862]}"/></Border>
+            <Border Grid.Row="06" Grid.Column="03"><TextBlock Text="{Binding ReceivedWords.Value[863]}"/></Border>
+            <Border Grid.Row="06" Grid.Column="04"><TextBlock Text="{Binding ReceivedWords.Value[864]}"/></Border>
+            <Border Grid.Row="06" Grid.Column="05"><TextBlock Text="{Binding ReceivedWords.Value[865]}"/></Border>
+            <Border Grid.Row="06" Grid.Column="06"><TextBlock Text="{Binding ReceivedWords.Value[866]}"/></Border>
+            <Border Grid.Row="06" Grid.Column="07"><TextBlock Text="{Binding ReceivedWords.Value[867]}"/></Border>
+            <Border Grid.Row="06" Grid.Column="08"><TextBlock Text="{Binding ReceivedWords.Value[868]}"/></Border>
+            <Border Grid.Row="06" Grid.Column="09"><TextBlock Text="{Binding ReceivedWords.Value[869]}"/></Border>
+            <Border Grid.Row="07" Grid.Column="00"><TextBlock Text="{Binding ReceivedWords.Value[870]}"/></Border>
+            <Border Grid.Row="07" Grid.Column="01"><TextBlock Text="{Binding ReceivedWords.Value[871]}"/></Border>
+            <Border Grid.Row="07" Grid.Column="02"><TextBlock Text="{Binding ReceivedWords.Value[872]}"/></Border>
+            <Border Grid.Row="07" Grid.Column="03"><TextBlock Text="{Binding ReceivedWords.Value[873]}"/></Border>
+            <Border Grid.Row="07" Grid.Column="04"><TextBlock Text="{Binding ReceivedWords.Value[874]}"/></Border>
+            <Border Grid.Row="07" Grid.Column="05"><TextBlock Text="{Binding ReceivedWords.Value[875]}"/></Border>
+            <Border Grid.Row="07" Grid.Column="06"><TextBlock Text="{Binding ReceivedWords.Value[876]}"/></Border>
+            <Border Grid.Row="07" Grid.Column="07"><TextBlock Text="{Binding ReceivedWords.Value[877]}"/></Border>
+            <Border Grid.Row="07" Grid.Column="08"><TextBlock Text="{Binding ReceivedWords.Value[878]}"/></Border>
+            <Border Grid.Row="07" Grid.Column="09"><TextBlock Text="{Binding ReceivedWords.Value[879]}"/></Border>
+            <Border Grid.Row="08" Grid.Column="00"><TextBlock Text="{Binding ReceivedWords.Value[880]}"/></Border>
+            <Border Grid.Row="08" Grid.Column="01"><TextBlock Text="{Binding ReceivedWords.Value[881]}"/></Border>
+            <Border Grid.Row="08" Grid.Column="02"><TextBlock Text="{Binding ReceivedWords.Value[882]}"/></Border>
+            <Border Grid.Row="08" Grid.Column="03"><TextBlock Text="{Binding ReceivedWords.Value[883]}"/></Border>
+            <Border Grid.Row="08" Grid.Column="04"><TextBlock Text="{Binding ReceivedWords.Value[884]}"/></Border>
+            <Border Grid.Row="08" Grid.Column="05"><TextBlock Text="{Binding ReceivedWords.Value[885]}"/></Border>
+            <Border Grid.Row="08" Grid.Column="06"><TextBlock Text="{Binding ReceivedWords.Value[886]}"/></Border>
+            <Border Grid.Row="08" Grid.Column="07"><TextBlock Text="{Binding ReceivedWords.Value[887]}"/></Border>
+            <Border Grid.Row="08" Grid.Column="08"><TextBlock Text="{Binding ReceivedWords.Value[888]}"/></Border>
+            <Border Grid.Row="08" Grid.Column="09"><TextBlock Text="{Binding ReceivedWords.Value[889]}"/></Border>
+            <Border Grid.Row="09" Grid.Column="00"><TextBlock Text="{Binding ReceivedWords.Value[890]}"/></Border>
+            <Border Grid.Row="09" Grid.Column="01"><TextBlock Text="{Binding ReceivedWords.Value[891]}"/></Border>
+            <Border Grid.Row="09" Grid.Column="02"><TextBlock Text="{Binding ReceivedWords.Value[892]}"/></Border>
+            <Border Grid.Row="09" Grid.Column="03"><TextBlock Text="{Binding ReceivedWords.Value[893]}"/></Border>
+            <Border Grid.Row="09" Grid.Column="04"><TextBlock Text="{Binding ReceivedWords.Value[894]}"/></Border>
+            <Border Grid.Row="09" Grid.Column="05"><TextBlock Text="{Binding ReceivedWords.Value[895]}"/></Border>
+            <Border Grid.Row="09" Grid.Column="06"><TextBlock Text="{Binding ReceivedWords.Value[896]}"/></Border>
+            <Border Grid.Row="09" Grid.Column="07"><TextBlock Text="{Binding ReceivedWords.Value[897]}"/></Border>
+            <Border Grid.Row="09" Grid.Column="08"><TextBlock Text="{Binding ReceivedWords.Value[898]}"/></Border>
+            <Border Grid.Row="09" Grid.Column="09"><TextBlock Text="{Binding ReceivedWords.Value[899]}"/></Border>
+            <Border Grid.Row="10" Grid.Column="00"><TextBlock Text="{Binding ReceivedWords.Value[900]}"/></Border>
+            <Border Grid.Row="10" Grid.Column="01"><TextBlock Text="{Binding ReceivedWords.Value[901]}"/></Border>
+            <Border Grid.Row="10" Grid.Column="02"><TextBlock Text="{Binding ReceivedWords.Value[902]}"/></Border>
+            <Border Grid.Row="10" Grid.Column="03"><TextBlock Text="{Binding ReceivedWords.Value[903]}"/></Border>
+            <Border Grid.Row="10" Grid.Column="04"><TextBlock Text="{Binding ReceivedWords.Value[904]}"/></Border>
+            <Border Grid.Row="10" Grid.Column="05"><TextBlock Text="{Binding ReceivedWords.Value[905]}"/></Border>
+            <Border Grid.Row="10" Grid.Column="06"><TextBlock Text="{Binding ReceivedWords.Value[906]}"/></Border>
+            <Border Grid.Row="10" Grid.Column="07"><TextBlock Text="{Binding ReceivedWords.Value[907]}"/></Border>
+            <Border Grid.Row="10" Grid.Column="08"><TextBlock Text="{Binding ReceivedWords.Value[908]}"/></Border>
+            <Border Grid.Row="10" Grid.Column="09"><TextBlock Text="{Binding ReceivedWords.Value[909]}"/></Border>
+            <Border Grid.Row="11" Grid.Column="00"><TextBlock Text="{Binding ReceivedWords.Value[910]}"/></Border>
+            <Border Grid.Row="11" Grid.Column="01"><TextBlock Text="{Binding ReceivedWords.Value[911]}"/></Border>
+            <Border Grid.Row="11" Grid.Column="02"><TextBlock Text="{Binding ReceivedWords.Value[912]}"/></Border>
+            <Border Grid.Row="11" Grid.Column="03"><TextBlock Text="{Binding ReceivedWords.Value[913]}"/></Border>
+            <Border Grid.Row="11" Grid.Column="04"><TextBlock Text="{Binding ReceivedWords.Value[914]}"/></Border>
+            <Border Grid.Row="11" Grid.Column="05"><TextBlock Text="{Binding ReceivedWords.Value[915]}"/></Border>
+            <Border Grid.Row="11" Grid.Column="06"><TextBlock Text="{Binding ReceivedWords.Value[916]}"/></Border>
+            <Border Grid.Row="11" Grid.Column="07"><TextBlock Text="{Binding ReceivedWords.Value[917]}"/></Border>
+            <Border Grid.Row="11" Grid.Column="08"><TextBlock Text="{Binding ReceivedWords.Value[918]}"/></Border>
+            <Border Grid.Row="11" Grid.Column="09"><TextBlock Text="{Binding ReceivedWords.Value[919]}"/></Border>
+            <Border Grid.Row="12" Grid.Column="00"><TextBlock Text="{Binding ReceivedWords.Value[920]}"/></Border>
+            <Border Grid.Row="12" Grid.Column="01"><TextBlock Text="{Binding ReceivedWords.Value[921]}"/></Border>
+            <Border Grid.Row="12" Grid.Column="02"><TextBlock Text="{Binding ReceivedWords.Value[922]}"/></Border>
+            <Border Grid.Row="12" Grid.Column="03"><TextBlock Text="{Binding ReceivedWords.Value[923]}"/></Border>
+            <Border Grid.Row="12" Grid.Column="04"><TextBlock Text="{Binding ReceivedWords.Value[924]}"/></Border>
+            <Border Grid.Row="12" Grid.Column="05"><TextBlock Text="{Binding ReceivedWords.Value[925]}"/></Border>
+            <Border Grid.Row="12" Grid.Column="06"><TextBlock Text="{Binding ReceivedWords.Value[926]}"/></Border>
+            <Border Grid.Row="12" Grid.Column="07"><TextBlock Text="{Binding ReceivedWords.Value[927]}"/></Border>
+            <Border Grid.Row="12" Grid.Column="08"><TextBlock Text="{Binding ReceivedWords.Value[928]}"/></Border>
+            <Border Grid.Row="12" Grid.Column="09"><TextBlock Text="{Binding ReceivedWords.Value[929]}"/></Border>
+            <Border Grid.Row="13" Grid.Column="00"><TextBlock Text="{Binding ReceivedWords.Value[930]}"/></Border>
+            <Border Grid.Row="13" Grid.Column="01"><TextBlock Text="{Binding ReceivedWords.Value[931]}"/></Border>
+            <Border Grid.Row="13" Grid.Column="02"><TextBlock Text="{Binding ReceivedWords.Value[932]}"/></Border>
+            <Border Grid.Row="13" Grid.Column="03"><TextBlock Text="{Binding ReceivedWords.Value[933]}"/></Border>
+            <Border Grid.Row="13" Grid.Column="04"><TextBlock Text="{Binding ReceivedWords.Value[934]}"/></Border>
+            <Border Grid.Row="13" Grid.Column="05"><TextBlock Text="{Binding ReceivedWords.Value[935]}"/></Border>
+            <Border Grid.Row="13" Grid.Column="06"><TextBlock Text="{Binding ReceivedWords.Value[936]}"/></Border>
+            <Border Grid.Row="13" Grid.Column="07"><TextBlock Text="{Binding ReceivedWords.Value[937]}"/></Border>
+            <Border Grid.Row="13" Grid.Column="08"><TextBlock Text="{Binding ReceivedWords.Value[938]}"/></Border>
+            <Border Grid.Row="13" Grid.Column="09"><TextBlock Text="{Binding ReceivedWords.Value[939]}"/></Border>
+            <Border Grid.Row="14" Grid.Column="00"><TextBlock Text="{Binding ReceivedWords.Value[940]}"/></Border>
+            <Border Grid.Row="14" Grid.Column="01"><TextBlock Text="{Binding ReceivedWords.Value[941]}"/></Border>
+            <Border Grid.Row="14" Grid.Column="02"><TextBlock Text="{Binding ReceivedWords.Value[942]}"/></Border>
+            <Border Grid.Row="14" Grid.Column="03"><TextBlock Text="{Binding ReceivedWords.Value[943]}"/></Border>
+            <Border Grid.Row="14" Grid.Column="04"><TextBlock Text="{Binding ReceivedWords.Value[944]}"/></Border>
+            <Border Grid.Row="14" Grid.Column="05"><TextBlock Text="{Binding ReceivedWords.Value[945]}"/></Border>
+            <Border Grid.Row="14" Grid.Column="06"><TextBlock Text="{Binding ReceivedWords.Value[946]}"/></Border>
+            <Border Grid.Row="14" Grid.Column="07"><TextBlock Text="{Binding ReceivedWords.Value[947]}"/></Border>
+            <Border Grid.Row="14" Grid.Column="08"><TextBlock Text="{Binding ReceivedWords.Value[948]}"/></Border>
+            <Border Grid.Row="14" Grid.Column="09"><TextBlock Text="{Binding ReceivedWords.Value[949]}"/></Border>
+            <Border Grid.Row="15" Grid.Column="00"><TextBlock Text="{Binding ReceivedWords.Value[950]}"/></Border>
+            <Border Grid.Row="15" Grid.Column="01"><TextBlock Text="{Binding ReceivedWords.Value[951]}"/></Border>
+            <Border Grid.Row="15" Grid.Column="02"><TextBlock Text="{Binding ReceivedWords.Value[952]}"/></Border>
+            <Border Grid.Row="15" Grid.Column="03"><TextBlock Text="{Binding ReceivedWords.Value[953]}"/></Border>
+            <Border Grid.Row="15" Grid.Column="04"><TextBlock Text="{Binding ReceivedWords.Value[954]}"/></Border>
+            <Border Grid.Row="15" Grid.Column="05"><TextBlock Text="{Binding ReceivedWords.Value[955]}"/></Border>
+            <Border Grid.Row="15" Grid.Column="06"><TextBlock Text="{Binding ReceivedWords.Value[956]}"/></Border>
+            <Border Grid.Row="15" Grid.Column="07"><TextBlock Text="{Binding ReceivedWords.Value[957]}"/></Border>
+            <Border Grid.Row="15" Grid.Column="08"><TextBlock Text="{Binding ReceivedWords.Value[958]}"/></Border>
+            <Border Grid.Row="15" Grid.Column="09"><TextBlock Text="{Binding ReceivedWords.Value[959]}"/></Border>
+            <Border Grid.Row="16" Grid.Column="00"><TextBlock Text="{Binding ReceivedWords.Value[960]}"/></Border>
+            <Border Grid.Row="16" Grid.Column="01"><TextBlock Text="{Binding ReceivedWords.Value[961]}"/></Border>
+            <Border Grid.Row="16" Grid.Column="02"><TextBlock Text="{Binding ReceivedWords.Value[962]}"/></Border>
+            <Border Grid.Row="16" Grid.Column="03"><TextBlock Text="{Binding ReceivedWords.Value[963]}"/></Border>
+            <Border Grid.Row="16" Grid.Column="04"><TextBlock Text="{Binding ReceivedWords.Value[964]}"/></Border>
+            <Border Grid.Row="16" Grid.Column="05"><TextBlock Text="{Binding ReceivedWords.Value[965]}"/></Border>
+            <Border Grid.Row="16" Grid.Column="06"><TextBlock Text="{Binding ReceivedWords.Value[966]}"/></Border>
+            <Border Grid.Row="16" Grid.Column="07"><TextBlock Text="{Binding ReceivedWords.Value[967]}"/></Border>
+            <Border Grid.Row="16" Grid.Column="08"><TextBlock Text="{Binding ReceivedWords.Value[968]}"/></Border>
+            <Border Grid.Row="16" Grid.Column="09"><TextBlock Text="{Binding ReceivedWords.Value[969]}"/></Border>
+            <Border Grid.Row="17" Grid.Column="00"><TextBlock Text="{Binding ReceivedWords.Value[970]}"/></Border>
+            <Border Grid.Row="17" Grid.Column="01"><TextBlock Text="{Binding ReceivedWords.Value[971]}"/></Border>
+            <Border Grid.Row="17" Grid.Column="02"><TextBlock Text="{Binding ReceivedWords.Value[972]}"/></Border>
+            <Border Grid.Row="17" Grid.Column="03"><TextBlock Text="{Binding ReceivedWords.Value[973]}"/></Border>
+            <Border Grid.Row="17" Grid.Column="04"><TextBlock Text="{Binding ReceivedWords.Value[974]}"/></Border>
+            <Border Grid.Row="17" Grid.Column="05"><TextBlock Text="{Binding ReceivedWords.Value[975]}"/></Border>
+            <Border Grid.Row="17" Grid.Column="06"><TextBlock Text="{Binding ReceivedWords.Value[976]}"/></Border>
+            <Border Grid.Row="17" Grid.Column="07"><TextBlock Text="{Binding ReceivedWords.Value[977]}"/></Border>
+            <Border Grid.Row="17" Grid.Column="08"><TextBlock Text="{Binding ReceivedWords.Value[978]}"/></Border>
+            <Border Grid.Row="17" Grid.Column="09"><TextBlock Text="{Binding ReceivedWords.Value[979]}"/></Border>
+            <Border Grid.Row="18" Grid.Column="00"><TextBlock Text="{Binding ReceivedWords.Value[980]}"/></Border>
+            <Border Grid.Row="18" Grid.Column="01"><TextBlock Text="{Binding ReceivedWords.Value[981]}"/></Border>
+            <Border Grid.Row="18" Grid.Column="02"><TextBlock Text="{Binding ReceivedWords.Value[982]}"/></Border>
+            <Border Grid.Row="18" Grid.Column="03"><TextBlock Text="{Binding ReceivedWords.Value[983]}"/></Border>
+            <Border Grid.Row="18" Grid.Column="04"><TextBlock Text="{Binding ReceivedWords.Value[984]}"/></Border>
+            <Border Grid.Row="18" Grid.Column="05"><TextBlock Text="{Binding ReceivedWords.Value[985]}"/></Border>
+            <Border Grid.Row="18" Grid.Column="06"><TextBlock Text="{Binding ReceivedWords.Value[986]}"/></Border>
+            <Border Grid.Row="18" Grid.Column="07"><TextBlock Text="{Binding ReceivedWords.Value[987]}"/></Border>
+            <Border Grid.Row="18" Grid.Column="08"><TextBlock Text="{Binding ReceivedWords.Value[988]}"/></Border>
+            <Border Grid.Row="18" Grid.Column="09"><TextBlock Text="{Binding ReceivedWords.Value[989]}"/></Border>
+            <Border Grid.Row="19" Grid.Column="00"><TextBlock Text="{Binding ReceivedWords.Value[990]}"/></Border>
+            <Border Grid.Row="19" Grid.Column="01"><TextBlock Text="{Binding ReceivedWords.Value[991]}"/></Border>
+            <Border Grid.Row="19" Grid.Column="02"><TextBlock Text="{Binding ReceivedWords.Value[992]}"/></Border>
+            <Border Grid.Row="19" Grid.Column="03"><TextBlock Text="{Binding ReceivedWords.Value[993]}"/></Border>
+            <Border Grid.Row="19" Grid.Column="04"><TextBlock Text="{Binding ReceivedWords.Value[994]}"/></Border>
+            <Border Grid.Row="19" Grid.Column="05"><TextBlock Text="{Binding ReceivedWords.Value[995]}"/></Border>
+            <Border Grid.Row="19" Grid.Column="06"><TextBlock Text="{Binding ReceivedWords.Value[996]}"/></Border>
+            <Border Grid.Row="19" Grid.Column="07"><TextBlock Text="{Binding ReceivedWords.Value[997]}"/></Border>
+            <Border Grid.Row="19" Grid.Column="08"><TextBlock Text="{Binding ReceivedWords.Value[998]}"/></Border>
+            <Border Grid.Row="19" Grid.Column="09"><TextBlock Text="{Binding ReceivedWords.Value[999]}"/></Border>
+            
+        </Grid>
+        
+    </Grid>
+</UserControl>
